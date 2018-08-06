@@ -14,12 +14,22 @@
 <meta property="og:site_name" content="molly的博客">
 <meta property="og:description" content="html全称是 Hyper Text Markup Language.（超文本标记语言）1.随记 .除了div和span，其他的标签都有默认的样式。 .strong是一个逻辑状态，bold是一个物理状态 .html没有块级元素和内联元素的，css负责样式 .body 标签的默认 margin 是8像素 2.空标签 空标签即不能包含子元素的标签。 如：input;img;meta;link;hr;b">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/2.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/3.png">
 <meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/1.png">
-<meta property="og:updated_time" content="2018-08-06T14:08:40.398Z">
+<meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/5.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/6.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/7.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/8.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/10.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/11.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/12.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/03/HTML基础/13.png">
+<meta property="og:updated_time" content="2018-08-06T15:41:31.712Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HTML基础">
 <meta name="twitter:description" content="html全称是 Hyper Text Markup Language.（超文本标记语言）1.随记 .除了div和span，其他的标签都有默认的样式。 .strong是一个逻辑状态，bold是一个物理状态 .html没有块级元素和内联元素的，css负责样式 .body 标签的默认 margin 是8像素 2.空标签 空标签即不能包含子元素的标签。 如：input;img;meta;link;hr;b">
-<meta name="twitter:image" content="http://yoursite.com/2018/08/03/HTML基础/1.png">
+<meta name="twitter:image" content="http://yoursite.com/2018/08/03/HTML基础/2.png">
   
     <link rel="alternate" href="/atom.xml" title="molly的博客" type="application/atom+xml">
   
@@ -94,8 +104,14 @@
 <p>4.块级元素和行内元素以及display:block<br>  根据CSS规范的规定，每一个网页元素都有一个display属性，用于确定该元素的类型，每一个元素都有默认的display属性值，比如div元素，它的默认display属性值为“block”，成为“块级”元素(block-level)；而span元素的默认display属性值为“inline”，称为“行内”元素。</p>
 <p>  块级元素：动占据一定矩形空间，可以通过设置高度、宽度、内外边距等属性，来调整的这个矩形的样子；</p>
 <p>  行内元素：自己的独立空间，它是依附于其他块级元素存在的，因此，对行内元素设置高度、宽度、内外边距等属性，都是无效的。<br>  css布局 ：横向布局 /纵向布局</p>
-<p>  iframe 标签：嵌套页面</p>
-<p>  a 标签<br>  <img src="/2018/08/03/HTML基础/1.png" alt="无协议"><br>  1.无协议写法 （ #号不发起请求）<br>  2.相对路径 只引目录为参考<br>  3.伪协议  希望这个a 点击后什么都不做的标签</p>
+<p>5 iframe 标签：<br>  嵌套页面 （使用iframe页面会很卡不建议使用）<br>  frameborder=”0”去除边框,src可以写相对路径。<br>  <img src="/2018/08/03/HTML基础/2.png" alt="图"></p>
+<p>6 iframe标签与a标签的结合使用<br>  <img src="/2018/08/03/HTML基础/3.png" alt="图"><br>    1.target=”_blank” 在空页面，新的页面打开链接<br>    2.target=”_top”  在顶级窗口打开<br>    3.target=”_self”  在当前页面打开<br>    4.target=”_parent”  在父级页面打开</p>
+<p>7.a 标签<br>跳转页面 （HTTP GET请求）get默认会把参数放到查询参数里面<br>  <img src="/2018/08/03/HTML基础/1.png" alt="图"><br>  1.无协议写法 （ #号不发起请求）<br>  2.相对路径 只引目录为参考<br>  3.伪协议  希望这个a 点击后什么都不做的标签</p>
+<p>8 form 标签<br> 跳转页面 （HTTP POST请求）post默认会把参数放到第四部分里面<br> <img src="/2018/08/03/HTML基础/5.png" alt="图"><br> <img src="/2018/08/03/HTML基础/6.png" alt="图"><br> 1.必须要有submit 提交按钮，否则无法提交<br> 2.name 出现在四部分</p>
+<p>9.input/button<br>  input是没有子元素，button是有子元素的。<br>  <img src="/2018/08/03/HTML基础/7.png" alt="图"><br>  submit是唯一能决定这个form表单能不能点击提交的按钮<br>  <img src="/2018/08/03/HTML基础/8.png" alt="图"><br>  button,会默认为提交按钮</p>
+<p>10.checkbox 复选框  radio 单选框<br>  <img src="/2018/08/03/HTML基础/10.png" alt="图"><br>  <img src="/2018/08/03/HTML基础/11.png" alt="图"></p>
+<p>10.select 下拉选框<br>  <img src="/2018/08/03/HTML基础/12.png" alt="图"><br>  multiple 可以多选<br>  disabled 不让选<br>  selected 默认选择<br>11.textarea 文本框<br>可以用css改变宽高</p>
+<p>12.table  （标签顺序没有影响）<br>th 表头<br>td 数据<br>col (colgroup) 列<br><img src="/2018/08/03/HTML基础/13.png" alt="图"><br>table-collpase: collpase; 可以消除表格内框</p>
 
       
     </div>
